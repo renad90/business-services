@@ -4,8 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css";
 
-import Logo from "../../assets/Logo.png";
-
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -17,8 +15,8 @@ export default function Header() {
         color: "white",
       }}
     >
-      <div className="logo flex">
-        <img src={Logo} className="logo-img" alt="Logo" />
+      <div>
+        <img src="/assets/Logo.png" className="logo-img" alt="Logo" />
       </div>
 
       <div className="nav-bar">

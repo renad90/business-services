@@ -2,8 +2,8 @@
 
 header {
   background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+
   /* justify-content: space-between; */
   position: fixed;
   top: 30px;
@@ -13,10 +13,11 @@ header {
   height: 3;
   border-radius: 25px;
 
-gap: 40px;
+  gap: 40px;
   box-shadow: rgba(152, 117, 164, 0.484) 0px 2px 13px 0px;
   display: flex;
   align-items: center;
+  z-index: 10;
 }
 
 .logo-img {
@@ -32,12 +33,10 @@ gap: 40px;
 } */
 
 .nav-bar ul {
-
   list-style: none;
-
-  display: flex;            /* <— THIS makes items go side-by-side */
-  align-items: center;      /* vertically center them */
-  gap: 20px;                /* optional: space between items */
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .nav-bar ul li {
   transition: 0.1s;
@@ -86,7 +85,7 @@ gap: 40px;
   color: #d3c4d6;
   font-size: 2.2rem;
 }
-/* pop up menu*/
+
 header .fixed {
   position: fixed;
   z-index: 9999;
@@ -158,9 +157,9 @@ header .fixed ul.menu-box li a:hover {
   .nav-bar {
     display: none;
   }
-  .user-button {
+  /* .user-button {
     display: none;
-  }
+  } */
   .logo img {
     margin: 0;
   }
