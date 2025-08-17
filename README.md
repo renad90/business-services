@@ -19,3 +19,16 @@ This project is focused on designing and building a modern, responsive businesse
 - **Vite**
 - **JavaScript**
 - **Git & GitHub**
+
+# Screenshots
+## Home Page
+![image alt](https://github.com/renad90/business-services/blob/ebedfdd5af75ea785cc3a6ee528fbf1ead0a467a/Screenshot%20Home.png)
+
+## Services Page
+![image alt](https://github.com/renad90/business-services/blob/ebedfdd5af75ea785cc3a6ee528fbf1ead0a467a/Screenshot%20Services.png)
+
+## About Page
+![image alt](https://github.com/renad90/business-services/blob/ebedfdd5af75ea785cc3a6ee528fbf1ead0a467a/Screenshot%20About.png)
+
+## FAQs Page
+![image alt](https://github.com/renad90/business-services/blob/ebedfdd5af75ea785cc3a6ee528fbf1ead0a467a/Screenshot%20FAQs.png)
