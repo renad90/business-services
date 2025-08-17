@@ -18,5 +18,4 @@ This project is focused on designing and building a modern, responsive businesse
 - **React**
 - **Vite**
 - **JavaScript**
-- **Tailwind CSS** for styling
 - **Git & GitHub**
