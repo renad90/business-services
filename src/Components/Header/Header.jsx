@@ -1,7 +1,6 @@
 import { useState } from "react";
-// import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Header.css";
 
 export default function Header() {
@@ -16,7 +15,7 @@ export default function Header() {
       }}
     >
       <div>
-        <img src="/assets/Logo.png" className="logo-img" alt="Logo" />
+        <img src="/assets/Logo.png" className="logo-imgh" alt="Logo" />
       </div>
 
       <div className="nav-bar">
@@ -28,10 +27,10 @@ export default function Header() {
             <a>الخدمات</a>
           </li>
           <li>
-            <a>الأسئلة الشائعة</a>
+            <a>عن المركز</a>
           </li>
           <li>
-            <a>عن المركز</a>
+            <a>الأسئلة الشائعة</a>
           </li>
         </ul>
       </div>
@@ -40,38 +39,7 @@ export default function Header() {
         <FontAwesomeIcon icon={faBars} />
       </button>
 
-      {showMenu && (
-        <div className="fixed">
-          <ul
-            className="menu-box"
-            style={{
-              fontFamily: '"IBM Plex Sans Arabic", sans-serif',
-              color: "#783288",
-            }}
-          >
-            <li>
-              <button className="close-icon" onClick={() => setShowMenu(false)}>
-                <FontAwesomeIcon icon={faXmark} />
-              </button>
-            </li>
-            <li>
-              <a>الحساب</a>
-            </li>
-            <li>
-              <a>الرئيسية</a>
-            </li>
-            <li>
-              <a>المفقودات</a>
-            </li>
-            <li>
-              <a>الخدمات</a>
-            </li>
-            <li>
-              <a>التواصل</a>
-            </li>
-          </ul>
-        </div>
-      )}
+      
     </header>
   );
 }

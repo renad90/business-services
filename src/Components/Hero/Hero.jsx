@@ -12,7 +12,7 @@ export default function Hero() {
           <source src="/assets/Video.mp4"  type="video/mp4" />
         </video>
 
-        <div className="overlay"></div>
+        <div className="gradient"></div>
 
         <div className="hero-text">
           <h1>المركز السعودي للأعمال</h1>

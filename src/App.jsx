@@ -2,30 +2,19 @@
 // import Background from "./Components/Background/Background";
 import Hero from "./Components/Hero/Hero";
 import Services from "./Components/Services/Services";
+import About from "./Components/About/About";
+import FAQs from "./Components/FAQs/FAQs";
+import Footer from "./Components/Footer/Footer"
 import "./App.css";
-function App() {
+export default function App() {
   return (
     <div className="app-container">
       <Hero />
       <Services />
+      <About />
+      <FAQs/>
+      <Footer/>
     </div>
   );
 }
-export default App;
 
-// const heroData = [
-//   {
-//     text1: "المركز السعودي للأعمال",
-//     text2: "وجهتك لبدء وممارسة وإنهاء أعمالك",
-//   },
-//   { text1: "تسهيل بدء وممارسة", text2: "النشاط الإقتصادي في المملكة" },
-//   {
-//     text1: "تكامل مع الجهات الحكومية لتقديم",
-//     text2: "أبرز الخدمات المتعلقة بالأعمال الاقتصادية",
-//   },
-// ];
-
-// const [heroCount, setHeroCount] = useState(2);
-// const [playStatus, setPlayStatus] = useState(true);
-
-//<h1 style={{ fontFamily: '"IBM Plex Sans Arabic", sans-serif' }}>مرحبا</h1>

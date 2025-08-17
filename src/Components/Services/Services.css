@@ -9,11 +9,15 @@
 .title {
   margin-bottom: 100px;
   padding-top: 20px;
-  margin-right:50px;
+  margin-right: 70px;
   font-size: 50px;
   font-weight: 500;
   color: #fff;
-  text-align: right;
+  text-align: center;
+}
+.logo-img {
+  width: 130px;
+  height: 130px;
 }
 .container {
   display: flex;
@@ -25,7 +29,7 @@
 .services {
   display: flex;
   flex-wrap: wrap;
-  gap:80px 85px;
+  gap: 80px 85px;
   align-items: flex-start;
   justify-content: center;
 }
@@ -52,9 +56,7 @@
   font-weight: 300;
   text-align: center;
 }
-.logo-container {
-  background-image: url("/assets/LogoWhite.png");
-}
+
 .service-card:hover {
   transform: translateY(-7px);
   background-color: #fff;
@@ -62,7 +64,37 @@
 .service-card:hover h1 {
   color: #242339;
 }
+.service-card:hover .logo-img {
+  color: #242339;
+}
 
-.service-card:hover .logo-container {
-  background-image: url("/assets/Logo.png");
+@media (max-width: 400px) {
+  .section {
+    height: 1500px;
+  }
+  .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .services {
+    gap: 20px;
+  }
+
+  .service-card {
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    height: auto;
+  }
+
+  .service-card h1 {
+    font-size: 20px;
+  }
+
+  .logo-img {
+    width: 70px;
+    height: 70px;
+  }
 }

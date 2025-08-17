@@ -1,5 +1,8 @@
 import "../Services/Services.css";
+import { useState } from "react";
 export default function Services() {
+  const [hovered, setHovered] = useState(false);
+
   return (
     <section id="services" className="section">
       <h1 className="title"> الخدمات الإلكترونية</h1>
@@ -25,9 +28,17 @@ export default function Services() {
           <h1>الاستعلام عن متجر إلكتروني</h1>
         </section>
 
-        <section className="service-card">
+        <section
+          className="service-card"
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+        >
           <div className="logo-container">
-            <img src="/assets/LogoWhite.png" className="logo-img" alt="Logo" />
+            <img
+              src={hovered ? "/assets/Logo.png" : "/assets/LogoWhite.png"}
+              className="logo-img"
+              alt="Logo"
+            />
           </div>
           <h1>إدارة التفاويض</h1>
         </section>
@@ -59,8 +70,6 @@ export default function Services() {
           </div>
           <h1>إدارة التفاويض</h1>
         </section>
-
-        
       </div>
     </section>
   );
