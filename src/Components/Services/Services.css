@@ -18,6 +18,7 @@
 .logo-img {
   width: 130px;
   height: 130px;
+  transition: opacity 0.3s ease;
 }
 .container {
   display: flex;
@@ -39,6 +40,7 @@
   height: 270px;
   border-radius: 30px;
   background-color: #242339;
+  cursor: pointer;
   /* padding-left: 20px;
   padding-top: 30px;
   padding-bottom: 90px; */

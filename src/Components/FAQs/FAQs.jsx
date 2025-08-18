@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../FAQs/FAQs.css";
+import { ExpandMore, ExpandLess } from "@mui/icons-material";
 
 const faqsData = [
   {
@@ -39,12 +40,15 @@ export default function FAQs() {
     <section className="section3">
       <div className="faqs-container">
         <h1 className="about-title">الأسئلة الشائعة</h1>
-        {faqsData.map((faq, index) => (
-          <div key={index} className="faq-item">
-            <div className="faq-question" onClick={() => expandAnswer(index)}>
+        {faqsData.map((faq) => (
+          <div key={faq} className="faq-item">
+            <div className="faq-question" onClick={() => expandAnswer(faq)}>
+              <span className="icon">
+                {active === faq ? <ExpandLess /> : <ExpandMore />}
+              </span>
               {faq.question}
             </div>
-            {active === index && <div className="faq-answer">{faq.answer}</div>}
+            {active === faq && <div className="faq-answer">{faq.answer}</div>}
           </div>
         ))}
       </div>

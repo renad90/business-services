@@ -30,10 +30,14 @@
   font-weight: 300;
   margin-top: 20px;
 }
+.icon {
+  margin-left: auto;
+  display: flex;
+}
 
 @media (max-width: 400px) {
-  .section3{
-  height: 700px;
+  .section3 {
+    height: 700px;
   }
   .faqs-container {
     width: 300px;
@@ -47,5 +51,4 @@
   .faq-answer {
     font-size: 15px;
   }
-  
 }
