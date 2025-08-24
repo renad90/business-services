@@ -38,8 +38,6 @@ export default function Header() {
       <button className="menu-button" onClick={() => setShowMenu(true)}>
         <FontAwesomeIcon icon={faBars} />
       </button>
-
-      
     </header>
   );
 }

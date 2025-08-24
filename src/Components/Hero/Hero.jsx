@@ -5,9 +5,10 @@ import "../Hero/Hero.css";
 export default function Hero() {
   return (
     <div className="home-container" dir="rtl">
-      <Header />
+    
 
       <div className="hero">
+          <Header/>
         <video className="hero-video" autoPlay loop muted>
           <source src="/assets/Video.mp4"  type="video/mp4" />
         </video>

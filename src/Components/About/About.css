@@ -1,4 +1,5 @@
 .section2 {
+  padding: 20px;
   flex-direction: column;
   background-color: #706d9c;
   background: linear-gradient(to top, rgba(35, 21, 74, 0.644), #242339);
@@ -6,7 +7,7 @@
 .about-container {
   display: flex;
   justify-content: center;
-  margin: 100px;
+  margin: 50px;
 }
 
 .about-title {
@@ -20,6 +21,8 @@
   transition: 0.5s;
 }
 .about-img {
+  width: 1000px;
+  height: 600px;
   border-radius: 70px;
   box-shadow: rgba(118, 99, 123, 0.753) 0px 2px 100px 0px;
 }
@@ -38,7 +41,7 @@
   opacity: 0;
 }
 .about-hover:hover {
-  transform: translateY(-20px);
+  transform: translateY(-30px);
 }
 .about-hover:hover .hover-content {
   opacity: 1;
@@ -66,10 +69,10 @@
   }
 
   .about-img {
-    width: 350px;
-
+    width: 330px;
+    height: 290px;
     border-radius: 40px;
-    box-shadow: rgba(118, 99, 123, 0.5) 0px 2px 50px 0px; /* smaller shadow */
+    box-shadow: rgba(118, 99, 123, 0.5) 0px 2px 50px 0px;
   }
 
   .hover-content {
