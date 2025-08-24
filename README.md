@@ -31,4 +31,4 @@ This project is focused on designing and building a modern, responsive businesse
 ![image alt](https://github.com/renad90/business-services/blob/ebedfdd5af75ea785cc3a6ee528fbf1ead0a467a/Screenshot%20About.png)
 
 ## FAQs Page
-![image alt](https://github.com/renad90/business-services/blob/ebedfdd5af75ea785cc3a6ee528fbf1ead0a467a/Screenshot%20FAQs.png)
+![image alt](https://github.com/renad90/business-services/blob/b205df8db249edef7ece717df59929ce0c3ba3ad/Screenshot%20FAQs.png)
